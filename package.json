@@ -16,6 +16,7 @@
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc",
+    "prepare": "npm run build",
     "bump": "yarn version --patch"
   },
   "main": "dist/index.js",
